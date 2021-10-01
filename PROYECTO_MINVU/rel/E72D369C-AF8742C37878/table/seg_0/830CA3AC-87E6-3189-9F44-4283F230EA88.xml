@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="830CA3AC-87E6-3189-9F44-4283F230EA88" name="REGION">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>2E47C320-0A90-B984-CF6F-B3293AA9CAAB</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGION" id="BA686695-D0A6-A51C-94C6-CD226805B173">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>0E7BFAF6-F3E1-4B92-513C-4AB6B6CE3C7B</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="NOMBRE_REGION" id="F770595E-DC8F-4AE6-1EFB-369C59AC22BB">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>A2460FFC-3A65-7B08-117D-61C70D7D50B0</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EE8E363-2EC5-5E5C-147B-F464687C9E38" name="REGION_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>11C82829-43F4-1D94-5F15-58EEB23E27A0</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA686695-D0A6-A51C-94C6-CD226805B173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4D04D91-C3C9-A897-0D75-29C0A248B0AB" name="TITULO">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>89C518A3-8C45-417D-35ED-F84E861D72B7</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TITULO" id="9998F6C0-E9D4-E5E7-F1C1-140CDE3BED53">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>E7AB3282-50B1-810A-E9F5-8DD8E0E2FF49</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TITULO" id="3D4C4BE0-7B91-3007-B82D-DA651E54F772">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>2E238797-31BA-565F-C995-A2004C01A29C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_TITULO" id="089102B8-E7B0-E934-5709-4DA6057E3B45">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>98EA0BF2-ACA3-12D6-519A-1C791CA76A06</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6E8E105-1601-CD13-E294-993E110A1A51" name="TITULO_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>D43A9F77-FD75-B220-CE93-CD414EBD9A40</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9998F6C0-E9D4-E5E7-F1C1-140CDE3BED53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

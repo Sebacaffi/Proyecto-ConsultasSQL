@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A5EDB5D-33CB-5179-300C-A1BA91C9C287" name="CONYUGE">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>5C6C0E4A-C4B9-5276-6CC9-8E37EA465914</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_CONYUGE" id="1BF96D58-3E22-D9D5-5807-CBA97FB29C8D">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>F1F839A5-6132-B387-B0EC-A587646E5714</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVRUN_CONYUGE" id="05699750-478F-51C5-881A-FC0051BB48C8">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>554B1532-BA2E-1581-48C2-4F365A409218</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NAC_CON" id="159A3DF9-DDA7-3333-7837-330864640FF8">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>AE5C0FDE-42C1-521B-F08E-6BFA38CBD92D</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNOMBRE_CON" id="C0619FE2-B079-7AC5-4E0B-3B50C834FFF8">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>881520D6-119F-D7D5-652A-DEF6365301F0</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNOMBRE_CON" id="10A70531-B3B7-F107-1EFA-E72222C3CD63">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>EF593889-472F-A1B7-04DA-6049389C544D</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APATERNO_CON" id="BF0CE6A9-18DE-2530-B7D6-4FEECE3A9D4D">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>E366614C-E646-34B2-E162-1E80994BFA69</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMATERNO_CON" id="454C2104-30C3-6AB9-CF28-D09A8B2B5117">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>4A29511E-CA33-6C50-8C90-D9E7C0DF9009</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A986887-CBA2-868D-19FC-86F43658F3FD" name="CONYUGE_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>9CD7E07E-6FFF-D80B-445E-D5BA30E500A9</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF96D58-3E22-D9D5-5807-CBA97FB29C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

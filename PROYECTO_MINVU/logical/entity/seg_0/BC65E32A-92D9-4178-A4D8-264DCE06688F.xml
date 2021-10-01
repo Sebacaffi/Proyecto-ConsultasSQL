@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC65E32A-92D9-4178-A4D8-264DCE06688F" name="ENTIDAD_FINANCIERA">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-22 17:04:52 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENTIDAD" id="CA40E9B4-58D4-6A28-E71B-B701AF5DC61F">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-22 21:53:08 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_ENTIDAD" id="35156E6C-95BF-5929-5D54-E362BC34D3A8">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-22 21:53:30 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9E2DE69-8F4F-454D-13C7-780B7541CAEC" name="ENTIDAD_FINANCIERA PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-22 21:53:26 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA40E9B4-58D4-6A28-E71B-B701AF5DC61F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

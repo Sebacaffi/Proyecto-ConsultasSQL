@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5172069A-E145-4187-83D2-F325890D0323" containerWithKeyObject="5FBBDA38-DC9D-F341-D46A-DC0A8C8BCD90" localFKIndex="0BC3E48D-F705-1C54-E369-F4FCC95794D1" name="POSTULANTE_NACIONALIDAD_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>B8AF7D2D-5028-9ABD-F74D-58F125793DB4</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>NACIONALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C050A18-F323-97FB-E04E-77EFA4921029</referredTableID>
+<keyObject>99E08FF3-74CE-40F3-3569-2E86A7EFD346</keyObject>
+<referredKeyID>99E08FF3-74CE-40F3-3569-2E86A7EFD346</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_NACIONALIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

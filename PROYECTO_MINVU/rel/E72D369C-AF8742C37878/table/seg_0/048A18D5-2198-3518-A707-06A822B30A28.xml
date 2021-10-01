@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="048A18D5-2198-3518-A707-06A822B30A28" name="POSTULACION">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>28B3E166-8C4C-6996-6DFD-4A033B1E357F</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NRO_FOLIO" id="0D2C11B0-E63A-BEAA-9590-79777CDA08C9">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>C94DD66E-E2B0-8E6B-7A01-9E442F0F6D76</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_POSTULACION" id="CE2CA167-3734-00FB-D9A9-45735F8D8669">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>89A60ADB-C27C-6EF6-A494-04D3687FA2FC</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUN_POSTULANTE" id="6881DAD9-0E2B-863E-03E7-285F93BFA92E">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>F7232557-4815-8E8F-4993-1A489CFF925E</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9CC376D-1833-0013-983A-EE09C3552056" referredColumn="4CEE884B-3C78-A727-5947-A201CB54DDF9"/>
+</associations>
+</Column>
+<Column name="NRO_CUENTA" id="0340118B-F684-F57C-F50F-38047B59FC40">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>90371472-00CD-452C-BA0D-9467B5EA6103</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F22789E-0D38-1D3C-407E-D992EA556E21" referredColumn="DF5A4C3B-0A6E-8C33-2492-75B4681ECC89"/>
+</associations>
+</Column>
+<Column name="ID_SUBSIDIO" id="C2301A37-FAA0-9B95-5362-392A0163A029">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>8CCFB81F-2F6D-DF66-034E-0620C5FB7D23</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F86DB4A8-AA17-A53B-F9C7-559D1069270A" referredColumn="53FD8AD2-328D-D019-03FC-743FF99788A1"/>
+</associations>
+</Column>
+<Column name="ID_ESTADO_POSTULACION" id="2510C925-05C3-94A7-075C-82C55D03947E">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:19:11 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85954AAC-F612-08B3-A37F-FF0E51D4354A" referredColumn="EEBB9DC2-523B-7BC1-BCB9-6F75FC5632AE"/>
+</associations>
+</Column>
+<Column name="ID_VIVIENDA" id="F2B1042A-776E-7B2E-809A-16A5D4829595">
+<createdBy>acmva</createdBy>
+<createdTime>2020-12-06 02:29:41 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6645881-39DD-57A5-FE97-E6249A45843F" referredColumn="A60075ED-7C7D-7355-43C8-097E9C69F328"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="097F7178-7440-A7EA-65D5-6363615D42BF" name="POSTULACION_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>E2B8878C-B733-F873-EE04-F0DABF1E268F</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2C11B0-E63A-BEAA-9590-79777CDA08C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D92AF3CF-2505-24A2-FD46-F38310C82625" name="FK_POSTULACION_POSTULANTE">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>B052B576-720B-2491-C8E2-539E2B29C95C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6881DAD9-0E2B-863E-03E7-285F93BFA92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5F4CD52-D9E2-1712-CD5E-58372E2AE77D" name="FK_CUEAHO_POS">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>267FEF81-BB95-964E-039F-599AE8E4FC42</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0340118B-F684-F57C-F50F-38047B59FC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5166FCD3-E6FC-AEB7-875D-EB2338DD7C96" name="FK_OPCSUB_POS">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>F462BABB-5A83-CA57-14D6-A789F85FCC26</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2301A37-FAA0-9B95-5362-392A0163A029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4312B731-D875-0A00-7991-98D81C3BD4B1" name="FK_ESTPOST_POST">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:19:11 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2510C925-05C3-94A7-075C-82C55D03947E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03C798CF-C52C-3A69-5B02-9FBAB00EA2CE" name="POSTULACION_VIVIENDA_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-12-06 02:29:41 UTC</createdTime>
+<generatorID>3115C923-25FA-7BF6-53D1-2EBDEBDCF25E</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2B1042A-776E-7B2E-809A-16A5D4829595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,379 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FBBDA38-DC9D-F341-D46A-DC0A8C8BCD90" name="POSTULANTE">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>A06FD433-4E2E-EC68-DDD1-6052B7FA724D</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_POSTULANTE" id="4CEE884B-3C78-A727-5947-A201CB54DDF9">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>1EE39626-0D7C-E0C8-E07D-354F806C9DF8</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVRUN_POSTULANTE" id="3BFB00B3-1643-A29C-1553-F61D151A630A">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>10A96922-2D03-C6B7-06EB-35289EA79B73</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNOMBRE_POSTULANTE" id="C91BAB81-D852-58FD-6368-4995277059E0">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>0C301FE4-6E30-9E81-B1F5-B578050914DB</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNOMBRE_POSTULANTE" id="4C5EFCAC-DA62-1D47-0982-ABA2DB25A024">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>7F2C36F1-C761-F46C-1740-189F0A1DD50C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APATERNO_POSTULANTE" id="3AD7B64E-658F-8F6C-3015-DFB0A4AE29DE">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>EDF61218-36E9-C804-15C3-5521DFE6B496</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMATERNO_POSTULANTE" id="B9A91112-EC76-343B-4667-3A1F2A88EB89">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>AEABE6F3-9F17-BA3D-0FBE-C9520E538D4C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NAC" id="D1C370E7-F178-3BB4-C4FD-418EF1DA36BA">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>1738351C-9969-3F88-744D-960421839A8F</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION_POSTULANTE" id="5C83D963-56EF-9E75-F964-A36A71489F2C">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>A4BFBF39-248D-85DE-F025-27998454E675</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="79BDA61E-89FA-B5B8-7C0E-E4F04ABBFAE3">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>C53184DE-7DAC-0DE9-63A0-5014A62577B9</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_CELULAR" id="78F0EC35-0A26-9F5A-FDB7-5921F5C39F03">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>AC13F7BD-0708-8D7B-95C0-920B0B692E04</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_FIJO" id="4D89BD2F-0D72-4CF3-0574-86D431138966">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>D16EDD74-8A80-AE77-A041-4C130800DCC1</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_LIQUIDO" id="8F07C8C4-F30F-9FA2-9A0B-A1018FF9A5CD">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>1D1CD510-9606-00E1-D00F-DD83BB3238A6</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<constraintName>CHK_SUE_LIQ</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="SUELDO_LIQUIDO BETWEEN 1200000 AND 2000000"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMUNA" id="6C622753-460D-5149-52DB-0991EB3EF9F0">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>064E5805-5A9C-02D7-BC30-776BD7BD369C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EE61E8F-D946-0DF1-C277-778C584AC3F8" referredColumn="7A094D58-7062-969C-E609-190249F4603A"/>
+</associations>
+</Column>
+<Column name="ID_NACIONALIDAD" id="F06309DF-D49E-9A73-F3C1-7FBB97C97290">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>DDBBE128-2316-47B4-683D-8D00FB968573</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5172069A-E145-4187-83D2-F325890D0323" referredColumn="83F3F681-3611-CCE3-E5C2-E10ECB118813"/>
+</associations>
+</Column>
+<Column name="ID_ESTADO_CIVIL" id="6B87B8EC-6A61-0104-81EB-68FEF69285C3">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>0D215D4F-A621-B523-9975-03AD95B33B7E</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E42D99A-FE6A-77A5-EA6E-8FF767F92987" referredColumn="E7871663-6C5E-24CA-4BFF-B7F46BA23B8F"/>
+</associations>
+</Column>
+<Column name="RUN_CONYUGE" id="7C4C071B-80CB-B0E5-5543-0B89896A4BF9">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>57986B84-8379-E317-50EC-BA795382E518</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74531B96-201F-746B-E8F0-8F7BA860698B" referredColumn="1BF96D58-3E22-D9D5-5807-CBA97FB29C8D"/>
+</associations>
+</Column>
+<Column name="ID_PUEBLO" id="E01C23E3-8B7D-D3B1-0BBA-537A4D58E2A4">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>40D89368-FF25-994D-BEF3-02A44CEF6F6B</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D1690F8-FF4F-D6A1-EA25-2AA9A2C7E108" referredColumn="4103AE44-6193-0B39-8042-2DE229C2F924"/>
+</associations>
+</Column>
+<Column name="ID_TITULO" id="A18E3B8A-2FDC-1D75-3710-324541FDC878">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>AFE5E163-00AF-EC62-0CE0-D051B485EAB4</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8BFE81A-64C8-0E10-D4E3-9C8F4AD6DE5B" referredColumn="9998F6C0-E9D4-E5E7-F1C1-140CDE3BED53"/>
+</associations>
+</Column>
+<Column name="ID_ESCOLARIDAD" id="E3120F71-6F43-4510-DF7B-3556C8D7CAC2">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>C5FAA2D6-3AFC-324F-E992-FC50F7D1F1D2</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F4A9336-12ED-4F02-AC8A-B237DBAB0E0A" referredColumn="972A42F9-138E-6CB5-29BF-8500FF7D0DE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49BCA157-B4EB-CAC3-6B37-12D7690E5C49" name="POSTULANTE_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>202115EB-ADA9-6C78-4E8F-0513787DA923</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CEE884B-3C78-A727-5947-A201CB54DDF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E4B0EA7-8FFF-6BEF-3464-4FC6E2E1600F" name="POSTULANTE_EMAIL_UN">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>1F299838-FE92-0AFA-2D45-1530294C719B</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79BDA61E-89FA-B5B8-7C0E-E4F04ABBFAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13F7534C-E7FE-E65C-25D5-D7140C01A03D" name="POSTULANTE_TITULO_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>B64DBFDA-418F-8B49-3FAF-E3A693063EB4</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18E3B8A-2FDC-1D75-3710-324541FDC878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C32B0D7-862A-9270-199A-01DD150C75B5" name="POSTULANTE_ESCOLARIDAD_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>3FB5D609-6BF6-CAB2-1694-7A0B3958CFEC</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3120F71-6F43-4510-DF7B-3556C8D7CAC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A615561-2E7E-C34A-8D9A-829103D160B3" name="POSTULANTE_COMUNA_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>75EA75E5-4C4F-2A96-35BE-2E414E0F267D</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C622753-460D-5149-52DB-0991EB3EF9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BC3E48D-F705-1C54-E369-F4FCC95794D1" name="POSTULANTE_NACIONALIDAD_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>B8AF7D2D-5028-9ABD-F74D-58F125793DB4</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06309DF-D49E-9A73-F3C1-7FBB97C97290"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BE89AC0-965D-624A-ABA6-03F6B1549663" name="POSTULANTE_ESTADO_CIVIL_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>A848961D-6FA0-68CA-9AF8-C5531F2765B3</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B87B8EC-6A61-0104-81EB-68FEF69285C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E7A8CF0-C727-C8A9-4B71-2CEFE8797294" name="POSTULANTE_CONYUGE_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>FDBC49A7-7D36-C7BF-F611-D019835CD4B3</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C4C071B-80CB-B0E5-5543-0B89896A4BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCFE2188-667C-4F4C-6963-AF59335B7D7D" name="POSTULANTE_PUEBLO_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>6FBF272A-BFA9-9D94-32DA-BB77C26402C6</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E01C23E3-8B7D-D3B1-0BBA-537A4D58E2A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

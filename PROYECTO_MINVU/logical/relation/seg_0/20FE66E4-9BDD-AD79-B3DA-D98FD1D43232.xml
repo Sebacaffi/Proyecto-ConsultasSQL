@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="20FE66E4-9BDD-AD79-B3DA-D98FD1D43232">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 20:43:14 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<sourcePk>11C82829-43F4-1D94-5F15-58EEB23E27A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E47C320-0A90-B984-CF6F-B3293AA9CAAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68A913D0-1B7D-BF91-EC9D-AE64855C622A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

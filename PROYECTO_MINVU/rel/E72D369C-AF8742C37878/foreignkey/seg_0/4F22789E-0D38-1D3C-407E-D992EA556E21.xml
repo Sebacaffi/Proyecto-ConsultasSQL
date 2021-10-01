@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F22789E-0D38-1D3C-407E-D992EA556E21" containerWithKeyObject="048A18D5-2198-3518-A707-06A822B30A28" localFKIndex="C5F4CD52-D9E2-1712-CD5E-58372E2AE77D" name="FK_CUEAHO_POS">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>267FEF81-BB95-964E-039F-599AE8E4FC42</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>CUENTA_AHORRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>752A2528-A800-812F-0FBE-B3E6845EF0C4</referredTableID>
+<keyObject>B057EF66-E3C4-76CE-2D4E-01644B74EEBA</keyObject>
+<referredKeyID>B057EF66-E3C4-76CE-2D4E-01644B74EEBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NRO_CUENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDA73952-1A33-A60C-77D8-85D67B5B95D9" containerWithKeyObject="752A2528-A800-812F-0FBE-B3E6845EF0C4" localFKIndex="33D23E0C-2B96-717A-DB61-BBAB3214E30A" name="FK_ENTFIN_CUEAHO">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>3157EA4E-1775-F2F0-95F2-E546A7BF679C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>ENTIDAD_FINANCIERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74383351-84B8-B14B-EE2F-E9448CF95CF5</referredTableID>
+<keyObject>F255C3A9-E67C-707A-92F2-320BABCB58DD</keyObject>
+<referredKeyID>F255C3A9-E67C-707A-92F2-320BABCB58DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ENTIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

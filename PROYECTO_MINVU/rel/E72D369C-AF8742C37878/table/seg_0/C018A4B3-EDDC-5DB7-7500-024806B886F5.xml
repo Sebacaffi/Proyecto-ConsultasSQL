@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C018A4B3-EDDC-5DB7-7500-024806B886F5" name="ESTADO_POSTULACION">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:17:16 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_POSTULACION" id="EEBB9DC2-523B-7BC1-BCB9-6F75FC5632AE">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:17:52 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_ESTADO" id="A4A168C4-D415-00CF-3F64-50ADD63F5058">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:18:33 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69AB069A-C423-B0C3-7DF2-364E8DE1BFB5" name="ESTADO_POSTULACION_PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:17:52 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEBB9DC2-523B-7BC1-BCB9-6F75FC5632AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F86DB4A8-AA17-A53B-F9C7-559D1069270A" containerWithKeyObject="048A18D5-2198-3518-A707-06A822B30A28" localFKIndex="5166FCD3-E6FC-AEB7-875D-EB2338DD7C96" name="FK_OPCSUB_POS">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>F462BABB-5A83-CA57-14D6-A789F85FCC26</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>OPCION_SUBSIDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>549287BC-6584-3E9C-C6FD-E5515DDBB923</referredTableID>
+<keyObject>5C4A6C1E-FA0E-363E-FBFB-30553EDC518D</keyObject>
+<referredKeyID>5C4A6C1E-FA0E-363E-FBFB-30553EDC518D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUBSIDIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

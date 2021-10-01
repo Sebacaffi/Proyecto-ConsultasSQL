@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28B3E166-8C4C-6996-6DFD-4A033B1E357F" name="POSTULACION">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:38:29 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NRO_FOLIO" id="C94DD66E-E2B0-8E6B-7A01-9E442F0F6D76">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:38:39 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_POSTULACION" id="89A60ADB-C27C-6EF6-A494-04D3687FA2FC">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:39:52 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_POSTULANTE" id="F7232557-4815-8E8F-4993-1A489CFF925E">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:46:26 UTC</createdTime>
+<generatorID>B052B576-720B-2491-C8E2-539E2B29C95C</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<referedAttribute>1EE39626-0D7C-E0C8-E07D-354F806C9DF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NRO_CUENTA" id="90371472-00CD-452C-BA0D-9467B5EA6103">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:53:47 UTC</createdTime>
+<generatorID>267FEF81-BB95-964E-039F-599AE8E4FC42</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<referedAttribute>F16010E7-B469-848F-51DE-FCB42609DD46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUBSIDIO" id="8CCFB81F-2F6D-DF66-034E-0620C5FB7D23">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:56:15 UTC</createdTime>
+<generatorID>F462BABB-5A83-CA57-14D6-A789F85FCC26</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<referedAttribute>99FF84C5-4C37-5F99-4012-5D5F0C931918</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO_POSTULACION" id="B2EC82D5-6222-08D8-39DE-0963FB9EB3F0">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:16:32 UTC</createdTime>
+<generatorID>AC5B6466-75C7-7FE0-0301-06BDFBA77B28</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<referedAttribute>6AABDFCB-88DF-4C1B-5811-ABFA47E28B85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_VIVIENDA" id="A85C7CFF-42AF-B2FC-3FE1-BA818E5D4C70">
+<createdBy>acmva</createdBy>
+<createdTime>2020-12-06 02:37:27 UTC</createdTime>
+<generatorID>419A0A9B-DE7A-1430-1542-A18923E44635</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<referedAttribute>BF452E33-E3D1-1EF3-559E-A4C0A0686F5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2B8878C-B733-F873-EE04-F0DABF1E268F" name="POSTULACION PK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-27 23:39:25 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<engineerTo>
+<item key="E72D369C-5972-D2F0-5735-AF8742C37878" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C94DD66E-E2B0-8E6B-7A01-9E442F0F6D76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

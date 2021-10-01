@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DE76853-7BE0-93BA-EBA9-611B50484F06" containerWithKeyObject="945A4320-7BD3-A391-B9D8-CE2C9A7953C0" localFKIndex="2CDD0389-08F2-1C67-F040-DFF8949C10AC" name="FK_ESTVIV_VIV">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>D688FA57-303C-3121-8180-3A180C117EC5</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>ESTADO_VIVIENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D928DBEC-0A15-78BA-63F8-2D777D40179C</referredTableID>
+<keyObject>63029E44-1448-3235-A7AE-3DCFB337A86A</keyObject>
+<referredKeyID>63029E44-1448-3235-A7AE-3DCFB337A86A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

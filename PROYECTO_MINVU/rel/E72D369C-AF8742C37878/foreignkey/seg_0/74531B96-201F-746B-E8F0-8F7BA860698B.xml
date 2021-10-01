@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74531B96-201F-746B-E8F0-8F7BA860698B" containerWithKeyObject="5FBBDA38-DC9D-F341-D46A-DC0A8C8BCD90" localFKIndex="4E7A8CF0-C727-C8A9-4B71-2CEFE8797294" name="POSTULANTE_CONYUGE_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>FDBC49A7-7D36-C7BF-F611-D019835CD4B3</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>CONYUGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A5EDB5D-33CB-5179-300C-A1BA91C9C287</referredTableID>
+<keyObject>6A986887-CBA2-868D-19FC-86F43658F3FD</keyObject>
+<referredKeyID>6A986887-CBA2-868D-19FC-86F43658F3FD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>RUN_CONYUGE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

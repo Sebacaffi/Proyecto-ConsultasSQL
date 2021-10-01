@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8BFE81A-64C8-0E10-D4E3-9C8F4AD6DE5B" containerWithKeyObject="5FBBDA38-DC9D-F341-D46A-DC0A8C8BCD90" localFKIndex="13F7534C-E7FE-E65C-25D5-D7140C01A03D" name="POSTULANTE_TITULO_FK">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 00:20:08 UTC</createdTime>
+<generatorID>B64DBFDA-418F-8B49-3FAF-E3A693063EB4</generatorID>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>TITULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4D04D91-C3C9-A897-0D75-29C0A248B0AB</referredTableID>
+<keyObject>A6E8E105-1601-CD13-E294-993E110A1A51</keyObject>
+<referredKeyID>A6E8E105-1601-CD13-E294-993E110A1A51</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_TITULO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

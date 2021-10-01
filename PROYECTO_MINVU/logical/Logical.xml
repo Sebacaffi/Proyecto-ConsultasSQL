@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8324096A-D683-3DA2-5EF8-EFDE759B3E46" mainViewID="63FA631E-80ED-C067-608F-B4641DECE3B8">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-21 14:10:03 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROYECTO_MINVU" id="05CF9D46-DD0D-0439-30D4-45C731744AF5" version="3.5">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-21 14:10:03 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>05CF9D46-DD0D-0439-30D4-45C731744AF5</designId>
+</OSDM_Design>

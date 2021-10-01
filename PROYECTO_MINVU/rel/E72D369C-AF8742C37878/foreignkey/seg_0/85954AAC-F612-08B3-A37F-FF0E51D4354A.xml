@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="85954AAC-F612-08B3-A37F-FF0E51D4354A" containerWithKeyObject="048A18D5-2198-3518-A707-06A822B30A28" localFKIndex="4312B731-D875-0A00-7991-98D81C3BD4B1" name="FK_ESTPOST_POST">
+<createdBy>acmva</createdBy>
+<createdTime>2020-11-28 15:19:11 UTC</createdTime>
+<ownerDesignName>PROYECTO_MINVU</ownerDesignName>
+<referredTableLongName>ESTADO_POSTULACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C018A4B3-EDDC-5DB7-7500-024806B886F5</referredTableID>
+<keyObject>69AB069A-C423-B0C3-7DF2-364E8DE1BFB5</keyObject>
+<referredKeyID>69AB069A-C423-B0C3-7DF2-364E8DE1BFB5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO_POSTULACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
